@@ -20,6 +20,7 @@ If you use this paper and its dataset in your research, please cite it as follow
 }
 ```
 
+
 ## Overview of the Dataset
 
 - **Source**: News programs from the broadcasting stations of the 63 provinces of Vietnam.
@@ -29,17 +30,47 @@ If you use this paper and its dataset in your research, please cite it as follow
   <img src="https://github.com/user-attachments/assets/10697af3-6414-49d4-9c6f-a1be4df16929" alt="Statistic" width="800"/>
 </p>
 
+
 - **Attributes**:
 
-| Key        | Description                                                                |
-|------------|----------------------------------------------------------------------------|
-| set        | The set of audio: `{'train', 'valid', 'test'}`.                          |
-| filename   | The filename follows the syntax `{province code}_{Sequence Number of Audio}`. |
-| text       | Transcript of the audio.                                                  |
-| length     | Length of the audio in seconds.                                          |
-| province   | The provincial dialect code.                                              |
-| region     | The regional dialect: `{'North', 'Central', 'South'}`.                  |
-| speakerID  | The speaker identification code follows the syntax `spk_{province code}_{Sequence Number of Speaker}`. |
-| gender     | Gender of the speaker (0 represents female and 1 represents male).        |
+<table border="1" style="border-collapse: collapse; width: 100%; text-align: left;">
+  <tr>
+    <th style="background-color: #f2f2f2; text-align: center;">Key</th>
+    <th style="background-color: #f2f2f2; text-align: center;">Description</th>
+  </tr>
+  <tr>
+    <td style="background-color: #f2f2f2; text-align: center;">set</td>
+    <td>The set of audio: `{'train', 'valid', 'test'}`.</td>
+  </tr>
+  <tr>
+    <td style="background-color: #f2f2f2; text-align: center;">filename</td>
+    <td>The filename follows the syntax `{province code}_{Sequence Number of Audio}`.</td>
+  </tr>
+  <tr>
+    <td style="background-color: #f2f2f2; text-align: center;">text</td>
+    <td>Transcript of the audio.</td>
+  </tr>
+  <tr>
+    <td style="background-color: #f2f2f2; text-align: center;">length</td>
+    <td>Length of the audio in seconds.</td>
+  </tr>
+  <tr>
+    <td style="background-color: #f2f2f2; text-align: center;">province</td>
+    <td>The provincial dialect code.</td>
+  </tr>
+  <tr>
+    <td style="background-color: #f2f2f2; text-align: center;">region</td>
+    <td>The regional dialect: `{'North', 'Central', 'South'}`.</td>
+  </tr>
+  <tr>
+    <td style="background-color: #f2f2f2; text-align: center;">speakerID</td>
+    <td>The speaker identification code follows the syntax `spk_{province code}_{Sequence Number of Speaker}`.</td>
+  </tr>
+  <tr>
+    <td style="background-color: #f2f2f2; text-align: center;">gender</td>
+    <td>Gender of the speaker (0 represents female and 1 represents male).</td>
+  </tr>
+</table>
 
-- For further details, please refer to the paper.
+
+- For further statistics, please refer to the paper.
