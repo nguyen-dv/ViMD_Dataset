@@ -26,7 +26,7 @@ If you use this paper and its dataset in your research, please cite it as follow
 - **Overall Statistics**:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1780741a-418a-4988-a2f3-3eb6d38fde0e" alt="Statistic" width="600"/>
+  <img src="https://github.com/user-attachments/assets/10697af3-6414-49d4-9c6f-a1be4df16929" alt="Statistic" width="800"/>
 </p>
 
 - **Attributes**:
