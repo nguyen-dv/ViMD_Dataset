@@ -9,14 +9,23 @@ This document presents the accompanying dataset for the paper titled **"Multi-Di
 If you use this paper and its dataset in your research, please cite it as follows:
 
 ```bibtex
-@misc{vandinh2024multidialectvietnamesetaskdataset,
-      title={Multi-Dialect Vietnamese: Task, Dataset, Baseline Models and Challenges}, 
-      author={Nguyen Van Dinh and Thanh Chi Dang and Luan Thanh Nguyen and Kiet Van Nguyen},
-      year={2024},
-      eprint={2410.03458},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2410.03458}, 
+@inproceedings{dinh-etal-2024-multi,
+    title = "Multi-Dialect {V}ietnamese: Task, Dataset, Baseline Models and Challenges",
+    author = "Dinh, Nguyen  and
+      Dang, Thanh  and
+      Thanh Nguyen, Luan  and
+      Nguyen, Kiet",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.426",
+    pages = "7476--7498",
+    abstract = "Vietnamese, a low-resource language, is typically categorized into three primary dialect groups that belong to Northern, Central, and Southern Vietnam. However, each province within these regions exhibits its own distinct pronunciation variations. Despite the existence of various speech recognition datasets, none of them has provided a fine-grained classification of the 63 dialects specific to individual provinces of Vietnam. To address this gap, we introduce Vietnamese Multi-Dialect (ViMD) dataset, a novel comprehensive dataset capturing the rich diversity of 63 provincial dialects spoken across Vietnam. Our dataset comprises 102.56 hours of audio, consisting of approximately 19,000 utterances, and the associated transcripts contain over 1.2 million words. To provide benchmarks and simultaneously demonstrate the challenges of our dataset, we fine-tune state-of-the-art pre-trained models for two downstream tasks: (1) Dialect identification and (2) Speech recognition. The empirical results suggest two implications including the influence of geographical factors on dialects, and the constraints of current approaches in speech recognition tasks involving multi-dialect speech data. Our dataset is available for research purposes.",
 }
 ```
 
