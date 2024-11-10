@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document presents the accompanying dataset for the paper titled **"Multi-Dialect Vietnamese: Task, Dataset, Baseline Models, and Challenges"**. The dataset, referred to as the **Vi**etnamese **M**ulti-**D**ialect (ViMD) dataset, is a comprehensive resource designed to capture the linguistic diversity represented by 63 provincial dialects spoken across Vietnam. The The paper is available at https://arxiv.org/pdf/2410.03458, and the dataset can be found at https://huggingface.co/datasets/nguyendv02/ViMD_Dataset.
+This document presents the accompanying dataset for the paper titled **"Multi-Dialect Vietnamese: Task, Dataset, Baseline Models, and Challenges"**. The dataset, referred to as the **Vi**etnamese **M**ulti-**D**ialect (ViMD) dataset, is a comprehensive resource designed to capture the linguistic diversity represented by 63 provincial dialects spoken across Vietnam. The The paper is available at https://aclanthology.org/2024.emnlp-main.426, and the dataset can be found at https://huggingface.co/datasets/nguyendv02/ViMD_Dataset.
 
 ## Citation
 
